@@ -1,0 +1,41 @@
+Alphabet Reconstruction
+
+
+You have found a list of alien words. You know for a fact that words in this list are sorted, but you don't know what the alphabet is.
+
+You would like to reconstruct the original alphabet in such a way, that the ordering between letters would explain the sorting of the list.
+
+For example, let's say our list is the following:
+
+ccda
+ccbk
+cd
+a
+ab
+From here one might infer that in this alphabet, "c" precedes "d" and "a", and "d" precedes "b". Here is a possible alphabet that satisfies these restrictions: cakdb
+
+
+
+Input Sample:
+
+
+
+ccda
+
+ccb
+
+cd
+
+a
+
+ab
+
+d
+
+
+
+Output Sample:
+
+
+
+cadb
