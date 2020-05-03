@@ -1,1 +1,2 @@
 # exams
+- alphabet reconstruction
