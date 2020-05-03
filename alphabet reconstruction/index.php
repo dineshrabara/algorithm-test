@@ -26,8 +26,8 @@ class Solution
         return $result;
     }
 }
-
-$words = ['ccda', 'ccb', 'cd', 'a', 'ab', 'd'];
+//'ccda', 'ccb', 'cd', 'a', 'ab', 'd'
+$words = [];
 
 while (($line = readline()) !== "" && !empty($line)) {
     array_push($words, $line);
