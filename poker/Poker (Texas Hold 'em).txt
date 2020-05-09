@@ -1,0 +1,84 @@
+Poker (Texas Hold 'em)
+
+
+Determine the winner given each player's set of cards per the following (which is just a description of the rules of poker)
+
+
+
+In the card game poker, a hand consists of five cards and are ranked, from lowest to highest, in the following way:
+
+High Card: Highest value card.
+One Pair: Two cards of the same value.
+Two Pairs: Two different pairs.
+Three of a Kind: Three cards of the same value.
+Straight: All cards are consecutive values.
+Flush: All cards of the same suit.
+Full House: Three of a kind and a pair.
+Four of a Kind: Four cards of the same value.
+Straight Flush: All cards are consecutive values of same suit.
+Royal Flush: Ten, Jack, Queen, King, Ace, in same suit.
+
+
+The cards are valued in the order:
+
+2, 3, 4, 5, 6, 7, 8, 9, 10(T), Jack(J), Queen(Q), King(K), Ace(A).
+
+
+
+The cards are suited, suit doesn't beat suit:
+
+Spade(S), Heart(H), Diamond(D), Club(C).
+
+
+
+If two players have the same ranked hands then the rank made up of the highest value wins; for example, a pair of eights beats a pair of fives:
+
+
+
+But if two ranks tie, for example, both players have a pair of queens, then highest cards in each hand are compared; if the highest cards tie then the next highest cards are compared, and so on.
+
+
+
+Solution function structure:
+
+/**
+
+* @param {string[]} hand1
+
+* @param {string[]} hand2
+
+* @return {int = winner
+
+*/
+
+
+
+The function will accept two inputs: hand1 and hand2 type string array, that is, the hand of player 1 and the hand of player 2.
+
+It must return 1 (means Player 1 wins) or 2 (means Player 2 wins).
+
+
+
+Sample Input:
+
+
+
+2S 4D 2C TC KS AS QH TH 9S KH
+
+
+
+so:
+
+
+
+hand1 = ['2S', '4D', '2C', 'TC', 'KS']
+
+hand2 = ['AS', 'QH', 'TH', '9S', 'KH']
+
+
+
+Output:
+
+
+
+Player 1 wins
